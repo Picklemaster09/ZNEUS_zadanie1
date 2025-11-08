@@ -1,5 +1,10 @@
-if you gonna create virtual envirnment, name it venv so its gonna be ognored by git or add the folder name of the environment to .gitignore file
+### Environment Setup
 
-also create .env file where put your wanb api in this format
+If you create a virtual environment, name it **`venv`** so it will automatically be ignored by Git.  
+If you prefer a different name, make sure to add that folder to **`.gitignore`** file.
 
-WANDB_API=yourkey
+Next, create a **`.env`** file in the project root and add your Weights & Biases API key in the following format:
+
+```
+WANDB_API=your_api_key_here
+```
